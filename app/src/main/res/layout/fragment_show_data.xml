@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".show_data">
+
+    <ImageView
+        android:id="@+id/app_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/name_app"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="App_Name"
+        android:textSize="50dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/category_app"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
